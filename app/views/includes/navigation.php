@@ -1,4 +1,4 @@
-<header class="navbar navbar-expand-lg navbar-light">
+<header class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container">
         <a href="#" class="navbar-brand">
             <span>StudyMate</span>
