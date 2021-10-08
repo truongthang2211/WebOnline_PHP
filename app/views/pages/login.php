@@ -36,7 +36,7 @@
                                 <i class="fas fa-lock"></i>
                                 <input type="password" name="password" placeholder="Password">
                             </div>
-                            <button type="submit" class="btn solid">Sign Up</button>
+                            <button type="submit" class="button solid">Sign Up</button>
                             <p class="socil-text">Or Sign Up with social platforms</p>
                             <div class="social-media">
                                 <a href="#" class="social-icon">
@@ -139,7 +139,7 @@
         <div class="container">
             <h2 class="title-section">TRỞ THÀNH HỌC VIÊN <span style="color:#FAD93C">STUDYMATE</span>!</h2>
             <h4>Đăng ký và tham gia ngay!</h4>
-            <a class="btn btn-important" href="#signup-form" title="Start today!">Start today!</a>
+            <a class="button btn btn-important" href="#signup-form" title="Start today!">Start today!</a>
         </div>
     </section>
 
@@ -162,7 +162,7 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" name="password" placeholder="Password">
                 </div>
-                <input type="submit" class="btn solid" value="Signup">
+                <input type="submit" class="button solid" value="Signup">
                 <p class="socil-text">Or Sign Up with social platforms</p>
                 <div class="social-media">
                     <a href="#" class="social-icon">
@@ -258,7 +258,7 @@
             height: 55px;
             background-color: #f0f0f0;
             margin: 10px 0;
-            border-radius: 40px;
+            border-radius: 15px;
             display: grid;
             grid-template-columns: 15% 85%;
             padding: 0 0.4rem;
@@ -282,13 +282,16 @@
             font-size: 1.2rem;
             color: black; /*đổi màu */
         }
+        input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+            border-bottom: 2px solid #389393;
+        }
 
         .input-field input:placeholder-shown {
             color: #aaa; /*đổi màu */
             font-weight: 500;
         }
 
-        .btn {
+        .button {
             width: 150px;
             height: 50px;
             outline: none;
@@ -300,11 +303,11 @@
             padding: 10px 0; 
             transition: all 0.5s;
         }
-        .forms-container .btn {
+        .forms-container .button {
             background-color: #389393;
             color: white;
         }
-        .forms-container .btn:hover {
+        .forms-container .button:hover {
             background-color: teal;
         }
 
