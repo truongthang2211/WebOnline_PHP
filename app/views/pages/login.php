@@ -315,7 +315,6 @@
 
         .button {
             width: 150px;
-            height: 50px;
             outline: none;
             border: none;
             border-radius: 48px;
