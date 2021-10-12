@@ -183,6 +183,10 @@
     <?php $this->View("footer");?>
     <style>
         /* Code CSS ở đây */
+        :root{
+            --white: #fff;
+            --green: #389393;
+        }
         body, input {
             font-family: 'Poppins', sans-serif;
         }
@@ -201,12 +205,12 @@
             margin-bottom: 90px;
             margin-right: 15%;
         }
-        .block-head-text{border :#389393 solid 2px;
+        .block-head-text{border :var(--green) solid 2px;
             border-radius: 20px;
         }
         .block-head-text {
             padding: 25px 35px;
-            background: #fff;
+            background: var(--white);
             z-index: 1;
             position: relative;
         }
@@ -221,7 +225,7 @@
         .form-head-register {
             position: relative;
             width: 100%;
-            background-color: #fff;
+            background-color: var(--white);
             min-height: 90vh;
             overflow: hidden;
             border-radius: 20px;
@@ -283,7 +287,7 @@
             color: black; /*đổi màu */
         }
         input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
-            border-bottom: 2px solid #389393;
+            border-bottom: 2px solid var(--green);
         }
 
         .input-field input:placeholder-shown {
@@ -293,7 +297,6 @@
 
         .button {
             width: 150px;
-            height: 50px;
             outline: none;
             border: none;
             border-radius: 48px;
@@ -304,7 +307,7 @@
             transition: all 0.5s;
         }
         .forms-container .button {
-            background-color: #389393;
+            background-color: var(--green);
             color: white;
         }
         .forms-container .button:hover {
@@ -332,8 +335,8 @@
         }
         .social-icon:hover {
             color: white;
-            background-color: #389393;
-            border-color: #389393;
+            background-color: var(--green);
+            border-color: var(--green);
         }
 /* ==================== */
         .title-section {
@@ -365,12 +368,12 @@
             padding: 11px 0;
             display: block;
             color: #000;
-            background: #389393;
+            background: var(--green);
             transition: .2s ease;
         }
         .c-tags-mini p {
             text-align: center;
-            color: #fff;
+            color: var(--white);
             font-size: 15px;
         }
         .c-tags-mini i {
@@ -390,7 +393,7 @@
             margin: 0 auto 40px;
             max-width: calc(100% - 60px);
             border-radius: 10px;
-            background-color: #fff;
+            background-color: var(--white);
             box-shadow: 0 0 20px 0 rgb(29 31 89 / 10%);
             text-align: center;
             width: 100%;
@@ -418,7 +421,7 @@
         }
 /* =============== */
         #footer-banner{
-            color: #fff;
+            color: var(--white);
             text-align: center;
             background-color: teal;
         }
