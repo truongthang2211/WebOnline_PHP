@@ -9,13 +9,16 @@ Menu_bar.onclick = function () {
     console.log(isClose)
     console.log(Menu_box.style.left)
     if (isClose) {
-        Menu_box.style.left = '0'
+        Menu_box.style.left = '0';
+        Mask.style.visibility = 'visible';
         Mask.style.zIndex='98';
         Mask.style.opacity='.6';
+
     }
 }
 Mask.onclick = ()=>{
     Menu_box.style.left = '-350px'
         Mask.style.zIndex='-1';
         Mask.style.opacity='0';
+        Mask.style.visibility = 'hidden';
 }
