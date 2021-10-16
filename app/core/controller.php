@@ -8,6 +8,8 @@ Class Controller{
             include $fullPath;
         }else if (file_exists($fullPathInc)){
             include $fullPathInc;
+        }else{
+            include "../app/views/pages/404.php";
         }
     }
     

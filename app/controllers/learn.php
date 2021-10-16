@@ -1,11 +1,10 @@
 <?php
-Class Home extends Controller{
+Class Learn extends Controller{
     public function __construct()
     {
     }
     public function index(){
-        $this->View("home");
+        $this->View("learn");
 
     }
-    
 }
