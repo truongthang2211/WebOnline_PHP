@@ -11,15 +11,18 @@
     <section id="top-head" class="landing-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-lg-8">
+                <div class="col-xs-12 col-lg-7">
                     <div class="wrap-block-head-text">
                         <div class="block-head-text">
-                            <h1>Câu tiêu đề:<br> vẫn là câu tiêu đề</h1>
-                            <p>slogan</p>
+                            <i>
+                                <h2>“ Não không nhăn</h2>
+                                <h2>Đời không nể ”</h2>
+                            </i>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-lg-4">
+                <div class="col-xs-12 col-lg-5">
                     <div class="wrap-form-head-register">
                         <div class="form-head-register">
                             <div class="forms-container">
@@ -40,15 +43,13 @@
                                     <button type="submit" class="button solid">Sign Up</button>
                                     <p class="socil-text">Or Sign Up with social platforms</p>
                                     <div class="social-media">
-                                        <a href="#" class="social-icon">
+                                        <a href="#" class="social-icon social-icon__facebook">
                                             <i class="fab fa-facebook-f"></i>
                                         </a>
-                                        <a href="#" class="social-icon">
+                                        <a href="#" class="social-icon social-icon__google">
                                             <i class="fab fa-google"></i>
                                         </a>
-                                        <a href="#" class="social-icon">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
+                                       
                                     </div>
                                 </form>
                             </div>
@@ -72,27 +73,27 @@
                     <div class="courses-lt-box">
                         <div class="courses__item">
                             <a href="#" class="c-tags-mini">
-                                <p> <i class="fas fa-language" aria-hidden="true"></i> Ngoại ngữ</p>
+                                <div class="course-field"> <i class="fas fa-language" aria-hidden="true"></i> Ngoại ngữ</div>
                             </a>
                         </div>
                         <div class="courses__item">
                             <a href="#" class="c-tags-mini">
-                                <p> <i class="fas fa-desktop" aria-hidden="true"></i> Tin học văn phòng</p>
+                                <div class="course-field"> <i class="fas fa-desktop" aria-hidden="true"></i> Tin học văn phòng</div>
                             </a>
                         </div>
                         <div class="courses__item">
                             <a href="#" class="c-tags-mini">
-                                <p> <i class="fas fa-paint-brush" aria-hidden="true"></i> Thiết kế</p>
+                                <div class="course-field"> <i class="fas fa-paint-brush" aria-hidden="true"></i> Thiết kế</div>
                             </a>
                         </div>
                         <div class="courses__item">
                             <a href="#" class="c-tags-mini">
-                                <p> <i class="fas fa-code" aria-hidden="true"></i> Lập trình</p>
+                                <div class="course-field"> <i class="fas fa-code" aria-hidden="true"></i> Lập trình</div>
                             </a>
                         </div>
                         <div class="courses__item">
                             <a href="#" class="c-tags-mini">
-                                <p> <i class="fas fa-line-chart" aria-hidden="true"></i> Marketing</p>
+                                <div class="course-field"> <i class="fas fa-line-chart" aria-hidden="true"></i> Marketing</div>
                             </a>
                         </div>
                     </div>
@@ -143,50 +144,19 @@
             <a class="button btn btn-important" href="#signup-form" title="Start today!">Start today!</a>
         </div>
     </section>
+    
+    
 
 
-
-    <!-- form login -->
-    <!-- <div class="form-head-register">
-        <div class="forms-container">
-            <form action="#" class="signup-form">
-                <h2 class="title">Sign In</h2>
-                <div class="input-field">
-                    <i class="fas fa-user"></i>
-                    <input type="text" name="username" placeholder="Username">
-                </div>
-                <div class="input-field">
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" name="email" placeholder="Email">
-                </div>
-                <div class="input-field">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" name="password" placeholder="Password">
-                </div>
-                <input type="submit" class="button solid" value="Signup">
-                <p class="socil-text">Or Sign Up with social platforms</p>
-                <div class="social-media">
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </form>
-        </div>
-    </div> -->
 
 
     <?php $this->View("footer"); ?>
     <style>
         /* Code CSS ở đây */
         :root {
-            --dark-blue-color: #389393;
-            --dark-blue-color-2: teal;
+            --main-gradient: linear-gradient(125deg,var(--main-red) 20%,var(--main-yellow));
+            --dark-blue-color: #00A19D;
+            --dark-blue-color-2: var(--main-red);
         }
 
         body,
@@ -213,16 +183,16 @@
             margin-right: 15%;
         }
 
+
+
         .block-head-text {
             border: var(--dark-blue-color) solid 2px;
             border-radius: 20px;
-        }
-
-        .block-head-text {
             padding: 25px 35px;
             background: var(--white);
             z-index: 1;
             position: relative;
+            text-align: center;
         }
 
         .landing-section {
@@ -238,7 +208,7 @@
             position: relative;
             width: 100%;
             background-color: var(--white);
-            min-height: 90vh;
+            min-height: 50vh;
             overflow: hidden;
             border-radius: 20px;
             box-shadow: 0 0 20px 0 rgb(29 31 89 / 10%);
@@ -346,7 +316,6 @@
         .social-icon {
             height: 46px;
             width: 46px;
-            border: 1px solid #333;
             margin: 0 0.45rem;
             display: flex;
             justify-content: center;
@@ -357,13 +326,26 @@
             border-radius: 50%;
             transition: all 0.5s;
         }
-
-        .social-icon:hover {
-            color: white;
-            background-color: var(--dark-blue-color);
-            border-color: var(--dark-blue-color);
+        .social-icon:hover{
+            color: #fff;
         }
+        .social-icon__facebook{
+            --facebook-color:#36589d; 
+            color: var(--facebook-color);
+            border: 1px solid var(--facebook-color);
 
+        }
+        .social-icon__facebook:hover{
+            background-color: var(--facebook-color);
+        }
+        .social-icon__google{
+            --google-color:#ea230f; 
+            color: var(--google-color);
+            border: 1px solid var(--google-color);
+        }
+        .social-icon__google:hover{
+            background-color: var(--google-color);
+        }
         /* ==================== */
         .title-section {
             font-size: 42px;
@@ -387,7 +369,11 @@
             height: 90px;
             margin-top: 16px;
         }
-
+        .course-field{
+            text-align: center;
+            color: #fff;
+            padding: 8px;
+        }
         .courses-lt-box a {
             text-decoration: none;
         }
@@ -460,7 +446,7 @@
         #footer-banner {
             color: #fff;
             text-align: center;
-            background-color: var(--dark-blue-color-2);
+            background-color: var(--dark-blue-color);
         }
 
         .btn.btn-important {
