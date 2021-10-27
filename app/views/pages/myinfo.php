@@ -25,7 +25,7 @@
                                 <form class="" method="post" id="frm-info" novalidate="novalidate">
                                     <div class="row">
                                         
-                                        <div class="col-md-3 col-xs-12">
+                                        <div class="col-md-6 col-xs-12">
                                             <div class="row">
                                                 <div id="ImgPreview" class="no-img"></div>
                                             </div>
@@ -33,17 +33,30 @@
                                                 <div class="form-group UploadAvatar">
                                                     <label for="Avatar" id="messageValidateImage" style="display: block;">Ảnh đại diện của bạn</label>
                                                     <input name="ImgFile" id="Avatar" class="file" type="file" accept="image/png,image/x-png,image/gif,image/jpeg,image/jpg">
-
-                                                    <div class="input-group">
+                                                    <!-- <div class="input-group">
                                                         <span class="input-group-btn">
                                                             <button class="browse btn btn-primary input-sm" type="button" id="Upload-Ava" style="display: block;">Chọn ảnh</button>
                                                         </span>
-                                                    </div>
-                                                </div>
-                                                
+                                                    </div> -->
+                                                </div>                                                
                                             </div>
                                         </div>
-                                        <div class="col-md-8 col-xs-12">
+                                        <div class="col-md-6 col-xs-12">
+                                            <div class="row">
+                                                <div id="ImgPreview" class="no-img"></div>
+                                            </div>
+                                            <div class="row avatar-selector">
+                                                <div class="form-group UploadAvatar">
+                                                    <label for="Avatar" id="messageValidateImage" style="display: block;">Ảnh nền trang user của bạn</label>
+                                                    <input name="ImgFile" id="Background" class="file" type="file" accept="image/png,image/x-png,image/gif,image/jpeg,image/jpg">                                            
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-12 ">
                                             <div class="row">
                                                 <div class="col-lg-3 col-sm-4 col-xs-12">
                                                     <div class="form-group">
@@ -95,6 +108,19 @@
                                                     <div class="form-group">
                                                         <span id="span-email" class="span-display" style="display: none;">huynhminhthu12@gmail.com</span>
                                                         <input name="EmailAddress" type="email" disabled="" class="form-control" id="EmailAddress" placeholder="Email" autocomplete="email" style="display: block;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3 col-sm-4 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label for="GraduatedSchool" aria-required="true">Trường</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9 col-sm-8 col-xs-12">
+                                                    <div class="form-group">
+                                                        <span id="span-school" class="span-display" style="display: none;"></span>
+                                                        <input name="GraduatedSchool" type="text" class="form-control" id="GraduatedSchool" autocomplete="graduated-school" aria-required="true" style="display: block;">
                                                     </div>
                                                 </div>
                                             </div>
@@ -195,13 +221,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-1">
-                                            <p style="float: right;">
-                                            <a href="javascript:void(0)">
-                                            <i class="cl-icon-pen edit-pencil-info" id="edit-pencil-info"></i>
-                                            </a>
-                                            </p>
-                                        </div>
+                                        
                                     </div>
 
                                     <h2 class="user--profile-title-group" id="change-userName">Đổi tên người dùng</h2>
@@ -271,7 +291,8 @@
     
     <style>
         :root{
-            --dark-blue-color: #00A19D;
+            --main-blue: #00A19D;
+            --main-red: #E05D5D;
             --white: #fff;
         }
         body{
@@ -303,7 +324,7 @@
         }
         .user--profile-left .user--profile--list-function li a:hover{
             font-weight: bold;
-            color: var(--dark-blue-color);
+            color: var(--main-blue);
             text-decoration: none;
         } 
         /* thông tin */
@@ -314,7 +335,7 @@
         .user--profile-right .user--profile-title-group {
             padding: 0;
             margin: 0;
-            color: var(--dark-blue-color);
+            color: var(--main-blue);
             font-size: 24px;
             font-weight: bold;
             line-height: 28px;
@@ -327,16 +348,16 @@
         }
 
         .form-control:focus{
-            border-color: var(--dark-blue-color);
+            border-color: var(--main-blue);
             outline: 0;
-            -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--dark-blue-color);
-            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--dark-blue-color);
+            -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--main-blue);
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--main-blue);
         }
 
         .form-select:focus {
-            border-color: var(--dark-blue-color);
+            border-color: var(--main-blue);
             outline: 0;
-            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--dark-blue-color);
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px var(--main-blue);
         }
         /* anh dai dien */
         #ImgPreview.no-img {
@@ -377,23 +398,20 @@
             margin-bottom: 5px;
             font-weight: 700;
         }
-        .file {
-            visibility: hidden;
-            position: absolute;
-        }
+        
         .UploadAvatar .browse {
             height: 45px;
             width: 104px;
             border-radius: 3px !important;
-            background-color: var(--dark-blue-color) !important;
+            background-color: var(--main-blue) !important;
             border: none;
             color: #fff;
         }
         
         .UploadAvatar .browse:hover, .UploadAvatar .browse:active {
             background-color: #fff !important;
-            border: 1px solid var(--dark-blue-color);
-            color: var(--dark-blue-color);
+            border: 1px solid var(--main-blue);
+            color: var(--main-blue);
         }
         .input-group .btn {
             margin-left: -15px;
@@ -452,7 +470,7 @@
             height: 45px;
             width: 167px;
             border-radius: 31.5px;
-            background-color: var(--dark-blue-color);
+            background-color: var(--main-blue);
             color: #fff;
             font-size: 14px;
             font-weight: 500;
@@ -461,7 +479,9 @@
             outline: none;
         }
         .user--profile-right .btn-save:hover{
-            border-color: var(--dark-blue-color);
+            color: var(--main-blue);
+            background-color: var(--white);
+            border-color: var(--main-blue);
             box-shadow: 0 10px 10px 0 #d1e6ff;
         }
 
@@ -471,7 +491,9 @@
             color: #fff;
         }
         .user--profile-right .btn-cancel {
-            color: #000;
+            color: var(--main-red);
+            background-color: var(--white);
+            border: var(--main-red);
             font-size: 14px;
             font-weight: 500;
             line-height: 34px;
@@ -480,12 +502,10 @@
             width: 100px;
             border: 1px solid #c8c8c8;
             border-radius: 3px;
-            background-color: #fff;
         }
         .user--profile-right .btn-cancel:hover{
-            color: var(--white);
-            color: var(--dark-blue-color);
-            border-color: var(--dark-blue-color);
+            background-color: var(--main-red);
+            color: #fff
         }
         
     </style>
