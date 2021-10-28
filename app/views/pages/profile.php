@@ -9,7 +9,6 @@
     <div class="all-profile">
         <div class="profile-background">
             <video playsinline="" autoplay="" muted="" loop="" poster="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/382344e97a4587c1773728480610d76dba4eb9f3.jpg" __idm_id__="355172354">
-                <source src="C:/xampp/htdocs/WebOnline_PHP/Facebook_4.mp4" type="video/mp4">
                 <source src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/a1c4a5d166c2086d43990c56bbc6a8d5bac7445e.webm" type="video/webm">
                 <source src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1406990/ad94df4fcc8a92d50bef360c6ca0516a31a51299.mp4" type="video/mp4">
 
@@ -164,7 +163,7 @@
 
         .all-profile {
             min-height: 100vh;
-            background-color: #EBEBEB;
+            background-image: linear-gradient(180deg, #ebebeb 75%,#aaa);
             position: relative;
         }
 
@@ -179,10 +178,13 @@
         .profile-background {
             position: absolute;
             max-height: 100%;
-            max-width: 100%;
+            width: 100%;
             overflow: hidden;
         }
-
+        .profile-background img,
+        .profile-background video{
+            width: 100%;
+        }
         .profile-header {
             display: flex;
             justify-content: start;
