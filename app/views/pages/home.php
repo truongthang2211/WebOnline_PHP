@@ -1054,8 +1054,6 @@
             padding: 30px 0;
         }
 
-        #header .container {}
-
         .container h2 {
             font-size: 28px;
             color: var(--white);

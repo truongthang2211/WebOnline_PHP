@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $this->View("head", "Thông tin cá nhân"); ?>
+<link href="<?php echo URL_ROOT?>/public/assets/css/override-container.css" rel="stylesheet" >
 
 <body>
     <?php $this->View("navigation"); ?>
