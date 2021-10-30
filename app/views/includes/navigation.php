@@ -31,6 +31,4 @@
         </button>
     </div>
     <script src="<?php echo URL_ROOT?>/public/assets/js/Menu.js"></script>
-
-
 </header>
