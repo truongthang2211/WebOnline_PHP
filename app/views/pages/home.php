@@ -421,7 +421,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -470,7 +470,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -519,7 +519,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Computer Software">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/computer-software-thumb.png" alt="Computer Software" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/computer-software-thumb.png" alt="Computer Software" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -568,7 +568,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -622,7 +622,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -671,7 +671,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -720,7 +720,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Computer Software">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Computer Software" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Computer Software" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -769,7 +769,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -823,7 +823,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -872,7 +872,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -921,7 +921,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Computer Software">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/computer-software-thumb.png" alt="Computer Software" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/computer-software-thumb.png" alt="Computer Software" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -970,7 +970,7 @@
                     <div class="course-item">
                         <div class="course-thumb">
                             <a href="#" title="Object Oriendted Programming in C++">
-                                <img src="<?php echo URL_ROOT ?>/public/assets/img/courses/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
+                                <img src="<?php echo URL_ROOT ?>/public/assets/img/home/oop-course-thumb.jpeg" alt="Object Oriendted Programming in C++" class="course-img">
                             </a>
                         </div>
                         <div class="course-content">
@@ -1050,7 +1050,7 @@
         /* HEADER */
 
         #header {
-            background: url('<?php echo URL_ROOT ?>/public/assets/img/courses/header-img.png');
+            background: url('<?php echo URL_ROOT ?>/public/assets/img/home/header-img.png');
             padding: 30px 0;
         }
 
